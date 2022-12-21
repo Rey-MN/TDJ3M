@@ -77,14 +77,52 @@
 				
 				/* quand l'ecran est moins que 800px */
 				@media screen and (max-width: 800px) {
+					#header, #footer { 
+						background-color: aqua;
+					}
+
+					img { 
+						vertical-align: top;
+					}
+
+					.mainContenu {
+						flex: 65%;
+					}
+
+					#aside {
+						flex: 25%;
+					}
+
+					#nav {
+						flex: 10%;
+						flex-direction: column-reverse;
+					}
+
+					#logo { 
+						vertical-align: top;
+
+					}
+
+					#header {
+						display: flex;
+						flex-direction: row-reverse;
+					}
+
+
+
+
 				}
 
 				/* quand l'ecran est moins que 650px */
 				@media screen and (max-width: 650px) {
+					#aside { 
+
+					 }
 				}
 				
 				/* quand l'ecran est moins que 600px */
 				@media screen and (max-width: 600px) {
+
 				}
 			
 			</style>
